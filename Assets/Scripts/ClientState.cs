@@ -24,10 +24,5 @@ public class ClientState : MonoBehaviour {
                 _bikeController.StopBike();
             }
         }
-
-        void Update()
-        {
-            
-        }
     }
 }
