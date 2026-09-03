@@ -10,6 +10,7 @@ public class ClientState : MonoBehaviour {
         }
 
         void OnGUI() {
+            GUILayout.Space(20);
             if (GUILayout.Button("Start Bike")) {
                 _bikeController.StartBike();
             }
